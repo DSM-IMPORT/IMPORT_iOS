@@ -9,8 +9,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
             window = UIWindow(frame: UIScreen.main.bounds)
             window?.windowScene = windowScene
+        
+        let textController = TestController()
 
-        let rootNavigationController = UINavigationController(rootViewController: ViewController())
+        let rootNavigationController = UINavigationController(rootViewController: textController)
         
         self.window?.rootViewController = rootNavigationController
         self.window?.makeKeyAndVisible()
