@@ -40,6 +40,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E683B5B298407CB003DA3E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0E683B5C298407D6003DA3E8 /* Storyboard */,
+				0E683B5D298407EC003DA3E8 /* Supporting Files */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0E683B5C298407D6003DA3E8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3333A2983FD5D005E2551 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E683B5D298407EC003DA3E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E683B5E2984080A003DA3E8 /* Lottie */,
+				0E683B5F2984080D003DA3E8 /* Font */,
+				0ED3332F2983FD5C005E2551 /* AppDelegate.swift */,
+				0ED333312983FD5C005E2551 /* SceneDelegate.swift */,
+				0ED333382983FD5D005E2551 /* Assets.xcassets */,
+				0ED3333D2983FD5D005E2551 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E683B5E2984080A003DA3E8 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		0E683B5F2984080D003DA3E8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0E683B6029840853003DA3E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0ED333332983FD5C005E2551 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		0ED333232983FD5C005E2551 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +113,8 @@
 		0ED3332E2983FD5C005E2551 /* Import */ = {
 			isa = PBXGroup;
 			children = (
-				0ED3332F2983FD5C005E2551 /* AppDelegate.swift */,
-				0ED333312983FD5C005E2551 /* SceneDelegate.swift */,
-				0ED333332983FD5C005E2551 /* ViewController.swift */,
-				0ED333382983FD5D005E2551 /* Assets.xcassets */,
-				0ED3333A2983FD5D005E2551 /* LaunchScreen.storyboard */,
-				0ED3333D2983FD5D005E2551 /* Info.plist */,
+				0E683B5B298407CB003DA3E8 /* Resource */,
+				0E683B6029840853003DA3E8 /* Source */,
 			);
 			path = Import;
 			sourceTree = "<group>";
@@ -77,7 +125,6 @@
 				A28063022A74CB6286508186 /* Pods-Import.debug.xcconfig */,
 				AAF69C75B1DBB8F0AFCF88A8 /* Pods-Import.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
