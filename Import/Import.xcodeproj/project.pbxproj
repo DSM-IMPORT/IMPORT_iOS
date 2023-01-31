@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */; };
+		0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9682988CF6000E103F4 /* LoginFlow.swift */; };
+		0E07B96B2988D0D700E103F4 /* AuthStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96A2988D0D700E103F4 /* AuthStep.swift */; };
 		0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E683B612984096D003DA3E8 /* TestContrller.swift */; };
 		0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3332F2983FD5C005E2551 /* AppDelegate.swift */; };
 		0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED333312983FD5C005E2551 /* SceneDelegate.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
+		0E07B9682988CF6000E103F4 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
+		0E07B96A2988D0D700E103F4 /* AuthStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStep.swift; sourceTree = "<group>"; };
 		0E683B612984096D003DA3E8 /* TestContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContrller.swift; sourceTree = "<group>"; };
 		0ED3332C2983FD5C005E2551 /* Import.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3332F2983FD5C005E2551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +58,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E07B9642988CED600E103F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E07B9672988CF4100E103F4 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0E07B9682988CF6000E103F4 /* LoginFlow.swift */,
+				0E07B96A2988D0D700E103F4 /* AuthStep.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
 		0E683B5B298407CB003DA3E8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +122,8 @@
 		0E683B6029840853003DA3E8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0E07B9672988CF4100E103F4 /* Flow */,
+				0E07B9642988CED600E103F4 /* ViewControllers */,
 				0EE402822986D2F400334805 /* Extensions */,
 				0EE4027F2986D14300334805 /* TabBar */,
 				0EE402762986CF2500334805 /* TestCode */,
@@ -297,6 +322,9 @@
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
 				0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */,
+				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
+				0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */,
+				0E07B96B2988D0D700E103F4 /* AuthStep.swift in Sources */,
 				0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */,
 				0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */,
 				0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */,
