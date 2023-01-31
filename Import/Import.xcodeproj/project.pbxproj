@@ -10,12 +10,17 @@
 		0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */; };
 		0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9682988CF6000E103F4 /* LoginFlow.swift */; };
 		0E07B96B2988D0D700E103F4 /* AuthStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96A2988D0D700E103F4 /* AuthStep.swift */; };
+		0E07B96D2988D36900E103F4 /* LoginStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96C2988D36900E103F4 /* LoginStepper.swift */; };
+		0E07B96F2988D46B00E103F4 /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96E2988D46B00E103F4 /* HomeFlow.swift */; };
+		0E07B9722988D4B700E103F4 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9712988D4B700E103F4 /* AppFlow.swift */; };
+		0E07B9742988D65F00E103F4 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9732988D65F00E103F4 /* AppStepper.swift */; };
+		0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9752988D78D00E103F4 /* StratViewController.swift */; };
+		0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9782988D7FF00E103F4 /* BaseVC.swift */; };
 		0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E683B612984096D003DA3E8 /* TestContrller.swift */; };
 		0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3332F2983FD5C005E2551 /* AppDelegate.swift */; };
 		0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED333312983FD5C005E2551 /* SceneDelegate.swift */; };
 		0ED333392983FD5D005E2551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED333382983FD5D005E2551 /* Assets.xcassets */; };
 		0ED3333C2983FD5D005E2551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED3333A2983FD5D005E2551 /* LaunchScreen.storyboard */; };
-		0EE402782986D0AC00334805 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE402772986D0AC00334805 /* HomeViewController.swift */; };
 		0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE402792986D0B600334805 /* MassgeViewController.swift */; };
 		0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027B2986D0C200334805 /* PlusViewController.swift */; };
 		0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027D2986D0CA00334805 /* UserViewController.swift */; };
@@ -28,6 +33,12 @@
 		0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 		0E07B9682988CF6000E103F4 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
 		0E07B96A2988D0D700E103F4 /* AuthStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStep.swift; sourceTree = "<group>"; };
+		0E07B96C2988D36900E103F4 /* LoginStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStepper.swift; sourceTree = "<group>"; };
+		0E07B96E2988D46B00E103F4 /* HomeFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
+		0E07B9712988D4B700E103F4 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		0E07B9732988D65F00E103F4 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		0E07B9752988D78D00E103F4 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
+		0E07B9782988D7FF00E103F4 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		0E683B612984096D003DA3E8 /* TestContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContrller.swift; sourceTree = "<group>"; };
 		0ED3332C2983FD5C005E2551 /* Import.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3332F2983FD5C005E2551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +46,6 @@
 		0ED333382983FD5D005E2551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED3333B2983FD5D005E2551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ED3333D2983FD5D005E2551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EE402772986D0AC00334805 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0EE402792986D0B600334805 /* MassgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassgeViewController.swift; sourceTree = "<group>"; };
 		0EE4027B2986D0C200334805 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		0EE4027D2986D0CA00334805 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +71,8 @@
 		0E07B9642988CED600E103F4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */,
+				0E07B9752988D78D00E103F4 /* StratViewController.swift */,
+				0E07B9702988D49B00E103F4 /* Auth */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -71,8 +82,28 @@
 			children = (
 				0E07B9682988CF6000E103F4 /* LoginFlow.swift */,
 				0E07B96A2988D0D700E103F4 /* AuthStep.swift */,
+				0E07B96C2988D36900E103F4 /* LoginStepper.swift */,
+				0E07B96E2988D46B00E103F4 /* HomeFlow.swift */,
+				0E07B9712988D4B700E103F4 /* AppFlow.swift */,
+				0E07B9732988D65F00E103F4 /* AppStepper.swift */,
 			);
 			path = Flow;
+			sourceTree = "<group>";
+		};
+		0E07B9702988D49B00E103F4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0E07B9772988D7F800E103F4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E07B9782988D7FF00E103F4 /* BaseVC.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		0E683B5B298407CB003DA3E8 /* Resource */ = {
@@ -122,6 +153,7 @@
 		0E683B6029840853003DA3E8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0E07B9772988D7F800E103F4 /* Base */,
 				0E07B9672988CF4100E103F4 /* Flow */,
 				0E07B9642988CED600E103F4 /* ViewControllers */,
 				0EE402822986D2F400334805 /* Extensions */,
@@ -162,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				0E683B612984096D003DA3E8 /* TestContrller.swift */,
-				0EE402772986D0AC00334805 /* HomeViewController.swift */,
 				0EE402792986D0B600334805 /* MassgeViewController.swift */,
 				0EE4027B2986D0C200334805 /* PlusViewController.swift */,
 				0EE4027D2986D0CA00334805 /* UserViewController.swift */,
@@ -318,6 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE402812986D16E00334805 /* TabBarViewController.swift in Sources */,
+				0E07B96D2988D36900E103F4 /* LoginStepper.swift in Sources */,
+				0E07B96F2988D46B00E103F4 /* HomeFlow.swift in Sources */,
 				0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */,
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
@@ -325,10 +358,13 @@
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
 				0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */,
 				0E07B96B2988D0D700E103F4 /* AuthStep.swift in Sources */,
+				0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */,
 				0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */,
 				0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */,
+				0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */,
 				0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */,
-				0EE402782986D0AC00334805 /* HomeViewController.swift in Sources */,
+				0E07B9722988D4B700E103F4 /* AppFlow.swift in Sources */,
+				0E07B9742988D65F00E103F4 /* AppStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
