@@ -13,16 +13,6 @@ import RxCocoa
 
 class EmailLoginViewController: BaseVC, Stepper {
     
-    lazy var textFields = [firstTextField, secondTextField]
-    var placeholders = ["username", "password"]
-    
-    private lazy var usernameLine = UIView().then {
-        $0.backgroundColor = .red
-    }
-    private lazy var passwordLine = UIView().then {
-        $0.backgroundColor = .red
-    }
-    
     var steps = PublishRelay<Step>()
     
     var initialStep: Step {
@@ -51,6 +41,7 @@ class EmailLoginViewController: BaseVC, Stepper {
         $0.returnKeyType = UIReturnKeyType.done
         $0.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         $0.leftViewMode = .always
+        $0.textColor = .Black
     }
     
     private lazy var secondTextField = UITextField().then {
@@ -58,12 +49,21 @@ class EmailLoginViewController: BaseVC, Stepper {
         $0.returnKeyType = UIReturnKeyType.done
         $0.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         $0.leftViewMode = .always
+        $0.textColor = .Black
+    }
+    
+    private lazy var usernameLine = UIView().then {
+        $0.backgroundColor = .Gray400
+    }
+    private lazy var passwordLine = UIView().then {
+        $0.backgroundColor = .Gray400
     }
     
     private lazy var loginFirstNextButton = UIButton().then {
         $0.setTitle("계속", for: .normal)
         $0.setTitleColor(UIColor.White, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
+        $0.addTarget(self, action: #selector(nextButtonDidTap), for: .touchUpInside)
         $0.backgroundColor = .Primary
         $0.layer.cornerRadius = 8.0
     }
@@ -72,12 +72,14 @@ class EmailLoginViewController: BaseVC, Stepper {
         $0.setTitle("비밀번호 바꾸기", for: .normal)
         $0.setTitleColor(UIColor.Gray600, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
-        $0.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
+        $0.addTarget(self, action: #selector(changePasswordButtonDidTap), for: .touchUpInside)
         $0.layer.cornerRadius = 8.0
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func attribute() {
+        
+        lazy var textFields = [firstTextField, secondTextField]
+        let placeholders = ["이름을 입력해 주세요.", "비밀번호를 입력해 주세요."]
         
         var index = 0
         for textField in textFields {
@@ -86,9 +88,6 @@ class EmailLoginViewController: BaseVC, Stepper {
             textField.delegate = self
             index += 1
         }
-        
-        
-        self.title = "Login"
         self.view.backgroundColor = .White
     }
     
@@ -160,11 +159,6 @@ class EmailLoginViewController: BaseVC, Stepper {
             $0.bottom.equalToSuperview().inset(34.0)
         }
     }
-
-    @objc
-    func loginButtonDidTap() {
-        self.steps.accept(IMPORTStep.homeIsRequired)
-    }
     
     func animate(line: UIView) {
         line.alpha = 0.3
@@ -172,6 +166,16 @@ class EmailLoginViewController: BaseVC, Stepper {
             line.alpha = 1
         }
     }
+    @objc
+    func changePasswordButtonDidTap() {
+        self.steps.accept(IMPORTStep.homeIsRequired)
+    }
+    
+    @objc
+    func nextButtonDidTap() {
+        print("계속 버튼 눌림 😀")
+    }
+
 }
 
 extension EmailLoginViewController: UITextFieldDelegate {
