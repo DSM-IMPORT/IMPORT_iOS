@@ -38,6 +38,7 @@ class StratViewController: BaseVC, Stepper {
         $0.setTitleColor(UIColor.White, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
         $0.backgroundColor = .Primary
+        $0.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
         $0.layer.cornerRadius = 8.0
     }
     
@@ -45,7 +46,7 @@ class StratViewController: BaseVC, Stepper {
         $0.setTitle("새로운 계정으로 계속하기", for: .normal)
         $0.setTitleColor(UIColor.Gray600, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
-        $0.addTarget(self, action: #selector(logoutButtonDidTap), for: .touchUpInside)
+        $0.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         $0.layer.cornerRadius = 8.0
     }
     
@@ -95,7 +96,12 @@ class StratViewController: BaseVC, Stepper {
     }
     
     @objc
-    func logoutButtonDidTap() {
-        self.steps.accept(AuthStep.loginIsRequired)
+    func loginButtonDidTap() {
+        self.steps.accept(IMPORTStep.loginIsRequired)
+    }
+    
+    @objc
+    func signupButtonDidTap() {
+        self.steps.accept(IMPORTStep.signupIsRequired)
     }
 }

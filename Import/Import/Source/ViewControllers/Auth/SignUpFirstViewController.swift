@@ -1,8 +1,8 @@
 //
-//  EmailLoginViewController.swift
+//  SignUpFirstViewController.swift
 //  Import
 //
-//  Created by 박준하 on 2023/01/31.
+//  Created by 박준하 on 2023/02/01.
 //
 
 import UIKit
@@ -11,27 +11,26 @@ import RxFlow
 import RxSwift
 import RxCocoa
 
-class EmailLoginViewController: UIViewController, Stepper {
-    
+class SignUpFirstViewController: BaseVC, Stepper {
     var steps = PublishRelay<Step>()
     
     var initialStep: Step {
-        AuthStep.homeIsRequired
+        IMPORTStep.homeIsRequired
     }
     
     var button: UIButton = {
         let button = UIButton()
-        button.setTitle("로그인", for: .normal)
+        button.setTitle("하하하", for: .normal)
         button.backgroundColor = .systemBlue
-        button.addTarget(EmailLoginViewController.self, action: #selector(loginButtonDidTap), for: .touchUpInside)
+        button.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
         return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Login"
+        self.title = "Signup"
         self.view.backgroundColor = .systemBackground
-    
+        
         self.view.addSubview(self.button)
         self.button.snp.makeConstraints {
             $0.leading.trailing.bottom.equalToSuperview().inset(20)
@@ -40,7 +39,7 @@ class EmailLoginViewController: UIViewController, Stepper {
     }
     
     @objc
-    func loginButtonDidTap() {
-        self.steps.accept(AuthStep.homeIsRequired)
+    func signupButtonDidTap() {
+        self.steps.accept(IMPORTStep.homeIsRequired)
     }
 }
