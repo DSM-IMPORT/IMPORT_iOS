@@ -8,8 +8,9 @@
 import Foundation
 import RxFlow
 
-enum AuthStep: Step {
+enum IMPORTStep: Step {
     
     case loginIsRequired
     case homeIsRequired
+    case signupIsRequired
 }
