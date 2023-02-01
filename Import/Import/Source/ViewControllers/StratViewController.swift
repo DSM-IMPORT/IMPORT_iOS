@@ -38,7 +38,7 @@ class StratViewController: BaseVC, Stepper {
         $0.setTitleColor(UIColor.White, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
         $0.backgroundColor = .Primary
-        $0.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
+        $0.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         $0.layer.cornerRadius = 8.0
     }
     
@@ -46,12 +46,11 @@ class StratViewController: BaseVC, Stepper {
         $0.setTitle("새로운 계정으로 계속하기", for: .normal)
         $0.setTitleColor(UIColor.Gray600, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
-        $0.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
+        $0.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
         $0.layer.cornerRadius = 8.0
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func attribute() {
         print("startViewContoller")
         self.view.backgroundColor = .White
     }
