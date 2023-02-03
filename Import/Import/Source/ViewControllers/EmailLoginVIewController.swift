@@ -49,7 +49,7 @@ class EmailLoginViewController: BaseSV {
         for textField in textFields {
             textField.attributedPlaceholder = NSAttributedString(string: placeholders[index],
                                                                   attributes: attributes)
-//            textField.delegate = self
+            textField.delegate = self
             index += 1
         }
         changePasswordButton.rx.tap
@@ -57,18 +57,17 @@ class EmailLoginViewController: BaseSV {
                 self.changePasswordButtonDidTap()
             }.disposed(by: disposeBag)
         
-//        self.view.backgroundColor = .White
         controller.view.backgroundColor = .white
     }
 }
 
-//extension EmailLoginViewController: UITextFieldDelegate {
-//    func textFieldDidBeginEditing(_ textField: UITextField) {
-//        switch textField {
-//        case firstTextField: animate(line: usernameLine)
-//        case secondTextField: animate(line: passwordLine)
-//        default: return
-//        }
-//    }
-//}
+extension EmailLoginViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        switch textField {
+        case firstTextField: animate(line: usernameLine)
+        case secondTextField: animate(line: passwordLine)
+        default: return
+        }
+    }
+}
 
