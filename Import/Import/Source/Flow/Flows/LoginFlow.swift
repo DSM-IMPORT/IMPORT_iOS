@@ -28,8 +28,6 @@ class LoginFlow: Flow {
     
     private func navigateToLogin() -> FlowContributors {
         let viewController = EmailLoginViewController()
-//        self.rootViewController.pushViewController(viewController, animated: true)
-//        return .one(flowContributor: .con)
         self.rootViewController.setViewControllers([viewController], animated: false)
         return .one(flowContributor: .contribute(withNext: viewController))
     }

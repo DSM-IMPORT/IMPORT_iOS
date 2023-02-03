@@ -19,23 +19,27 @@ class SignUpFirstViewController: BaseVC, Stepper {
         return button
     }()
     
+    override func attribute() {
+        self.view.backgroundColor = .systemBackground
+    }
+    
+    override func touchEvent() {
+        button.rx.tap
+            .bind {
+                self.signupButtonDidTap()
+            }
+            .disposed(by: disposeBag)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Signup"
-        print("나는 SignupFirstViewController야")
-        self.view.backgroundColor = .systemBackground
-        
+
         self.view.addSubview(self.button)
         self.button.snp.makeConstraints {
             $0.leading.trailing.bottom.equalToSuperview().inset(20)
             $0.height.equalTo(50)
         }
         
-        button.rx.tap
-            .bind {
-                self.signupButtonDidTap()
-            }
-            .disposed(by: disposeBag)
     }
     
     func signupButtonDidTap() {

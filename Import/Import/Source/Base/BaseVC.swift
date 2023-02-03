@@ -21,11 +21,15 @@ class BaseVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .systemBackground
-        self.attribute()
-        self.touchEvent()
         self.bind()
         self.configure()
         self.view.setNeedsUpdateConstraints()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.attribute()
+        self.touchEvent()
     }
     
     func touchEvent() { }

@@ -60,7 +60,6 @@ class BaseSV: BaseVC, Stepper {
         $0.setTitle("계속", for: .normal)
         $0.setTitleColor(UIColor.White, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
-        $0.addTarget(self, action: #selector(nextButtonDidTap), for: .touchUpInside)
         $0.backgroundColor = .Primary
         $0.layer.cornerRadius = 8.0
     }
@@ -70,7 +69,26 @@ class BaseSV: BaseVC, Stepper {
         print("난 base에 갇쳐있어")
     }
     
+    override func touchEvent() {
+        loginFirstNextButton.rx.tap
+            .bind {
+                self.nextButtonDidTap()
+            }
+            .disposed(by: disposeBag)
+    }
+    
     func updateWith(_ controller: UIViewController) {
+        
+        lazy var textFields = [firstTextField, secondTextField]
+        let placeholders = ["이름을 입력해 주세요.", "비밀번호를 입력해 주세요."]
+        
+        var index = 0
+        for textField in textFields {
+            textField.attributedPlaceholder = NSAttributedString(string: placeholders[index],
+                                                                 attributes: attributes)
+            textField.delegate = self
+            index += 1
+        }
         [
             firstTitle,
             secondTitle,
@@ -137,14 +155,23 @@ class BaseSV: BaseVC, Stepper {
     }
     
     func changePasswordButtonDidTap() {
-//        self.steps.accept(IMPORTStep.homeIsRequired)
         self.steps.accept(IMPORTStep.homeIsRequired)
         print("계속 버튼 눌림 😀")
     }
     
-    @objc
     func nextButtonDidTap() {
         print("계속 버튼 눌림 😀")
     }
 
 }
+
+extension BaseSV: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        switch textField {
+        case firstTextField: animate(line: usernameLine)
+        case secondTextField: animate(line: passwordLine)
+        default: return
+        }
+    }
+}
+
