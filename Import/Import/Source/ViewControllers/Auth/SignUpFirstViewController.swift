@@ -15,13 +15,14 @@ class SignUpFirstViewController: BaseVC, Stepper {
         let button = UIButton()
         button.setTitle("하하하", for: .normal)
         button.backgroundColor = .systemBlue
-        button.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
+//        button.addTarget(self, action: #selector(signupButtonDidTap), for: .touchUpInside)
         return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Signup"
+        print("나는 SignupFirstViewController야")
         self.view.backgroundColor = .systemBackground
         
         self.view.addSubview(self.button)
@@ -29,9 +30,14 @@ class SignUpFirstViewController: BaseVC, Stepper {
             $0.leading.trailing.bottom.equalToSuperview().inset(20)
             $0.height.equalTo(50)
         }
+        
+        button.rx.tap
+            .bind {
+                self.signupButtonDidTap()
+            }
+            .disposed(by: disposeBag)
     }
     
-    @objc
     func signupButtonDidTap() {
         self.steps.accept(IMPORTStep.homeIsRequired)
     }

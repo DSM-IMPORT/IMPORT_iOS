@@ -180,4 +180,3 @@ extension EmailLoginViewController: UITextFieldDelegate {
         }
     }
 }
-
