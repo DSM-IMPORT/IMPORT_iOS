@@ -23,14 +23,14 @@ class BaseSV: BaseVC, Stepper {
         $0.text = "기존의 계정으로 계속해요"
         $0.font = .systemFont(ofSize: 24, weight: .semibold)
         $0.numberOfLines = 1
-        $0.textColor = .black
+        $0.textColor = .Black
     }
     
     internal lazy var secondTitle = UILabel().then {
         $0.text = "계정 정보를 입력하여 시작해 보세요"
         $0.font = .systemFont(ofSize: 14, weight: .semibold)
         $0.numberOfLines = 1
-        $0.textColor = .gray
+        $0.textColor = .Gray600
     }
     
     internal lazy var firstTextField = UITextField().then {
@@ -38,7 +38,7 @@ class BaseSV: BaseVC, Stepper {
         $0.returnKeyType = UIReturnKeyType.done
         $0.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         $0.leftViewMode = .always
-        $0.textColor = .black
+        $0.textColor = .Black
     }
     
     internal lazy var secondTextField = UITextField().then {
@@ -46,22 +46,22 @@ class BaseSV: BaseVC, Stepper {
         $0.returnKeyType = UIReturnKeyType.done
         $0.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         $0.leftViewMode = .always
-        $0.textColor = .black
+        $0.textColor = .Black
     }
     
     internal lazy var usernameLine = UIView().then {
-        $0.backgroundColor = .gray
+        $0.backgroundColor = .Gray400
     }
     internal lazy var passwordLine = UIView().then {
-        $0.backgroundColor = .gray
+        $0.backgroundColor = .Gray400
     }
     
     internal lazy var loginFirstNextButton = UIButton().then {
         $0.setTitle("계속", for: .normal)
-        $0.setTitleColor(UIColor.white, for: .normal)
+        $0.setTitleColor(UIColor.White, for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16.0, weight: .medium)
         $0.addTarget(self, action: #selector(nextButtonDidTap), for: .touchUpInside)
-        $0.backgroundColor = .black
+        $0.backgroundColor = .Primary
         $0.layer.cornerRadius = 8.0
     }
     
