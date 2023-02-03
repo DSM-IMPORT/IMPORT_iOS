@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */; };
 		0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9682988CF6000E103F4 /* LoginFlow.swift */; };
 		0E07B96B2988D0D700E103F4 /* IMPORTStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96A2988D0D700E103F4 /* IMPORTStep.swift */; };
 		0E07B96D2988D36900E103F4 /* LoginStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B96C2988D36900E103F4 /* LoginStepper.swift */; };
@@ -20,6 +19,8 @@
 		0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F996298A37F6008D2DE4 /* Step+Extension.swift */; };
 		0E25F999298A39B1008D2DE4 /* HomeStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F998298A39B1008D2DE4 /* HomeStepper.swift */; };
 		0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F99E298A3C3C008D2DE4 /* SignupFlow.swift */; };
+		0E4A8B03298D18EE007462F7 /* EmailLoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */; };
+		0E4A8B05298D1944007462F7 /* BaseSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A8B04298D1944007462F7 /* BaseSV.swift */; };
 		0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E683B612984096D003DA3E8 /* TestContrller.swift */; };
 		0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3332F2983FD5C005E2551 /* AppDelegate.swift */; };
 		0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED333312983FD5C005E2551 /* SceneDelegate.swift */; };
@@ -34,7 +35,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 		0E07B9682988CF6000E103F4 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
 		0E07B96A2988D0D700E103F4 /* IMPORTStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPORTStep.swift; sourceTree = "<group>"; };
 		0E07B96C2988D36900E103F4 /* LoginStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStepper.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		0E25F996298A37F6008D2DE4 /* Step+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+Extension.swift"; sourceTree = "<group>"; };
 		0E25F998298A39B1008D2DE4 /* HomeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStepper.swift; sourceTree = "<group>"; };
 		0E25F99E298A3C3C008D2DE4 /* SignupFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFlow.swift; sourceTree = "<group>"; };
+		0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginVIewController.swift; sourceTree = "<group>"; };
+		0E4A8B04298D1944007462F7 /* BaseSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSV.swift; sourceTree = "<group>"; };
 		0E683B612984096D003DA3E8 /* TestContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContrller.swift; sourceTree = "<group>"; };
 		0ED3332C2983FD5C005E2551 /* Import.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3332F2983FD5C005E2551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		0E07B9642988CED600E103F4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */,
 				0E07B9752988D78D00E103F4 /* StratViewController.swift */,
 				0E07B9702988D49B00E103F4 /* Auth */,
 			);
@@ -99,7 +102,6 @@
 		0E07B9702988D49B00E103F4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				0E07B9652988CF0800E103F4 /* EmailLoginViewController.swift */,
 				0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */,
 			);
 			path = Auth;
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				0E07B9782988D7FF00E103F4 /* BaseVC.swift */,
+				0E4A8B04298D1944007462F7 /* BaseSV.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -399,16 +402,17 @@
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
 				0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */,
+				0E4A8B05298D1944007462F7 /* BaseSV.swift in Sources */,
 				0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */,
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
-				0E07B9662988CF0800E103F4 /* EmailLoginViewController.swift in Sources */,
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
 				0E07B96B2988D0D700E103F4 /* IMPORTStep.swift in Sources */,
 				0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */,
 				0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */,
 				0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */,
 				0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */,
+				0E4A8B03298D18EE007462F7 /* EmailLoginVIewController.swift in Sources */,
 				0E25F999298A39B1008D2DE4 /* HomeStepper.swift in Sources */,
 				0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */,
 				0E07B9722988D4B700E103F4 /* AppFlow.swift in Sources */,
