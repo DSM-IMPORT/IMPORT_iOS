@@ -24,12 +24,15 @@ class SignupFlow: Flow {
             return .end(forwardToParentFlowWithStep: IMPORTStep.homeIsRequired)
         case .signupIsRequired:
             return navigateToSignup()
+        case .changePasswordRequired:
+            return .none
         }
     }
     
     private func navigateToSignup() -> FlowContributors {
         let viewController = SignUpFirstViewController()
         self.rootViewController.setViewControllers([viewController], animated: false)
+        print("회원가입으로 이동")
         return .one(flowContributor: .contribute(withNext: viewController))
     }
 }

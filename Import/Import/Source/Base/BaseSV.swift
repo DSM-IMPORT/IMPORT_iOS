@@ -66,15 +66,6 @@ class BaseSV: BaseVC, Stepper {
     
     override func viewDidLoad() {
         updateWith(self)
-        print("난 base에 갇쳐있어")
-    }
-    
-    override func touchEvent() {
-        loginFirstNextButton.rx.tap
-            .bind {
-                self.nextButtonDidTap()
-            }
-            .disposed(by: disposeBag)
     }
     
     func updateWith(_ controller: UIViewController) {
@@ -153,16 +144,6 @@ class BaseSV: BaseVC, Stepper {
             line.alpha = 1
         }
     }
-    
-    func changePasswordButtonDidTap() {
-        self.steps.accept(IMPORTStep.homeIsRequired)
-        print("계속 버튼 눌림 😀")
-    }
-    
-    func nextButtonDidTap() {
-        print("계속 버튼 눌림 😀")
-    }
-
 }
 
 extension BaseSV: UITextFieldDelegate {

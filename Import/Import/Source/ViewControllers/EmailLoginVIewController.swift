@@ -13,10 +13,6 @@ import RxCocoa
 
 class EmailLoginViewController: BaseSV {
     
-    var initialStep: Step {
-        IMPORTStep.homeIsRequired
-    }
-    
     private lazy var changePasswordButton = UIButton().then {
         $0.setTitle("비밀번호 바꾸기", for: .normal)
         $0.setTitleColor(UIColor.gray, for: .normal)
@@ -41,7 +37,7 @@ class EmailLoginViewController: BaseSV {
     
     override func updateWith(_ controller: UIViewController) {
         super.updateWith(controller)
-
+        
         controller.view.addSubview(changePasswordButton)
         
         changePasswordButton.snp.makeConstraints {
@@ -51,6 +47,21 @@ class EmailLoginViewController: BaseSV {
             $0.top.equalTo(loginFirstNextButton.snp.bottom)
             $0.bottom.equalToSuperview().inset(34.0)
         }
+        
+//        loginFirstNextButton.rx.tap
+//            .bind {
+//                self.nextButtonDidTap()
+//            }.disposed(by: disposeBag)
+    }
+    
+    func changePasswordButtonDidTap() {
+        self.steps.accept(IMPORTStep.changePasswordRequired)
+        print("changePasswordButtonDidTap")
+    }
+    
+    
+    func nextButtonDidTap() {
+        print("계속 버튼 눌림 😀")
     }
 }
 

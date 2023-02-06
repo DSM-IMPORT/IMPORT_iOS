@@ -22,6 +22,8 @@
 		0E4A8B03298D18EE007462F7 /* EmailLoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */; };
 		0E4A8B05298D1944007462F7 /* BaseSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A8B04298D1944007462F7 /* BaseSV.swift */; };
 		0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E683B612984096D003DA3E8 /* TestContrller.swift */; };
+		0EA0A55D2990CD0800652588 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */; };
+		0EA0A55F2990CF9F00652588 /* ChangePasswordFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0A55E2990CF9F00652588 /* ChangePasswordFlow.swift */; };
 		0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3332F2983FD5C005E2551 /* AppDelegate.swift */; };
 		0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED333312983FD5C005E2551 /* SceneDelegate.swift */; };
 		0ED333392983FD5D005E2551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED333382983FD5D005E2551 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmailLoginVIewController.swift; path = ../EmailLoginVIewController.swift; sourceTree = "<group>"; };
 		0E4A8B04298D1944007462F7 /* BaseSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSV.swift; sourceTree = "<group>"; };
 		0E683B612984096D003DA3E8 /* TestContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContrller.swift; sourceTree = "<group>"; };
+		0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		0EA0A55E2990CF9F00652588 /* ChangePasswordFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordFlow.swift; sourceTree = "<group>"; };
 		0ED3332C2983FD5C005E2551 /* Import.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3332F2983FD5C005E2551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED333312983FD5C005E2551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0E07B9752988D78D00E103F4 /* StratViewController.swift */,
+				0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */,
 				0E07B9702988D49B00E103F4 /* Auth */,
 			);
 			path = ViewControllers;
@@ -122,6 +127,7 @@
 				0E07B9682988CF6000E103F4 /* LoginFlow.swift */,
 				0E07B96E2988D46B00E103F4 /* HomeFlow.swift */,
 				0E25F99E298A3C3C008D2DE4 /* SignupFlow.swift */,
+				0EA0A55E2990CF9F00652588 /* ChangePasswordFlow.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -399,6 +405,7 @@
 				0E07B96D2988D36900E103F4 /* LoginStepper.swift in Sources */,
 				0E07B96F2988D46B00E103F4 /* HomeFlow.swift in Sources */,
 				0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */,
+				0EA0A55F2990CF9F00652588 /* ChangePasswordFlow.swift in Sources */,
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
 				0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */,
@@ -417,6 +424,7 @@
 				0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */,
 				0E07B9722988D4B700E103F4 /* AppFlow.swift in Sources */,
 				0E07B9742988D65F00E103F4 /* AppStepper.swift in Sources */,
+				0EA0A55D2990CD0800652588 /* ChangePasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

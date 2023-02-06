@@ -24,6 +24,8 @@ class AppFlow: Flow {
             return self.navigateToHome()
         case .signupIsRequired:
             return self.navigateToSignup()
+        case .changePasswordRequired:
+            return self.navigateToChangePassword()
         }
     }
     
@@ -49,5 +51,13 @@ class AppFlow: Flow {
             self.window.rootViewController = root
         }
         return .one(flowContributor: .contribute(withNextPresentable: signupFlow, withNextStepper: OneStepper(withSingleStep: IMPORTStep.signupIsRequired)))
+    }
+    
+    private func navigateToChangePassword() -> FlowContributors {
+        let signupFlow = SignupFlow()
+        Flows.use(signupFlow, when: .created) { (root) in
+            self.window.rootViewController = root
+        }
+        return .one(flowContributor: .contribute(withNextPresentable: signupFlow, withNextStepper: OneStepper(withSingleStep: IMPORTStep.changePasswordRequired)))
     }
 }
