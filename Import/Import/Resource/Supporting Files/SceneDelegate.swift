@@ -13,11 +13,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
         
-//        let rootNavigationController = UINavigationController(rootViewController: ChangePasswordViewController())
-//
-//        self.window?.rootViewController = rootNavigationController
-        let appFlow = AppFlow(window: window)
-        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
+        let rootNavigationController = UINavigationController(rootViewController: SignUpSixthViewController())
+
+        self.window?.rootViewController = rootNavigationController
+//        let appFlow = AppFlow(window: window)
+//        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
         window.makeKeyAndVisible()
     }
 }

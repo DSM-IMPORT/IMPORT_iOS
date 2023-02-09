@@ -1,10 +1,3 @@
-//
-//  RestViewController.swift
-//  Import
-//
-//  Created by 박준하 on 2023/02/09.
-//
-
 import UIKit
 import Then
 import SnapKit
