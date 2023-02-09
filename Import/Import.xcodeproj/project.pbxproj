@@ -49,7 +49,7 @@
 		0E25F996298A37F6008D2DE4 /* Step+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+Extension.swift"; sourceTree = "<group>"; };
 		0E25F998298A39B1008D2DE4 /* HomeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStepper.swift; sourceTree = "<group>"; };
 		0E25F99E298A3C3C008D2DE4 /* SignupFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFlow.swift; sourceTree = "<group>"; };
-		0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmailLoginVIewController.swift; path = ../EmailLoginVIewController.swift; sourceTree = "<group>"; };
+		0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginVIewController.swift; sourceTree = "<group>"; };
 		0E4A8B04298D1944007462F7 /* BaseSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSV.swift; sourceTree = "<group>"; };
 		0E683B612984096D003DA3E8 /* TestContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContrller.swift; sourceTree = "<group>"; };
 		0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		0E07B9702988D49B00E103F4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */,
-				0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */,
+				0E125C692994DFE20019EF0B /* Login */,
+				0E125C6A2994DFEB0019EF0B /* SignUp */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -119,6 +119,22 @@
 				0E4A8B04298D1944007462F7 /* BaseSV.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		0E125C692994DFE20019EF0B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0E4A8B02298D18ED007462F7 /* EmailLoginVIewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0E125C6A2994DFEB0019EF0B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		0E25F99A298A3BAC008D2DE4 /* Flows */ = {
