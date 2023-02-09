@@ -15,6 +15,7 @@
 		0E07B9742988D65F00E103F4 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9732988D65F00E103F4 /* AppStepper.swift */; };
 		0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9752988D78D00E103F4 /* StratViewController.swift */; };
 		0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9782988D7FF00E103F4 /* BaseVC.swift */; };
+		0E125C6E2994E2900019EF0B /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6D2994E2900019EF0B /* RestViewController.swift */; };
 		0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */; };
 		0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F996298A37F6008D2DE4 /* Step+Extension.swift */; };
 		0E25F999298A39B1008D2DE4 /* HomeStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F998298A39B1008D2DE4 /* HomeStepper.swift */; };
@@ -45,6 +46,7 @@
 		0E07B9732988D65F00E103F4 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
 		0E07B9752988D78D00E103F4 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
 		0E07B9782988D7FF00E103F4 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		0E125C6D2994E2900019EF0B /* RestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewController.swift; sourceTree = "<group>"; };
 		0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
 		0E25F996298A37F6008D2DE4 /* Step+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+Extension.swift"; sourceTree = "<group>"; };
 		0E25F998298A39B1008D2DE4 /* HomeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStepper.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */,
+				0E125C6D2994E2900019EF0B /* RestViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */,
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
+				0E125C6E2994E2900019EF0B /* RestViewController.swift in Sources */,
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
 				0E07B96B2988D0D700E103F4 /* IMPORTStep.swift in Sources */,
 				0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */,
