@@ -16,6 +16,7 @@
 		0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9752988D78D00E103F4 /* StratViewController.swift */; };
 		0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9782988D7FF00E103F4 /* BaseVC.swift */; };
 		0E125C6E2994E2900019EF0B /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6D2994E2900019EF0B /* RestViewController.swift */; };
+		0E125C702994E5D70019EF0B /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6F2994E5D70019EF0B /* SignUpSecondViewController.swift */; };
 		0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */; };
 		0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F996298A37F6008D2DE4 /* Step+Extension.swift */; };
 		0E25F999298A39B1008D2DE4 /* HomeStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F998298A39B1008D2DE4 /* HomeStepper.swift */; };
@@ -47,6 +48,7 @@
 		0E07B9752988D78D00E103F4 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
 		0E07B9782988D7FF00E103F4 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		0E125C6D2994E2900019EF0B /* RestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewController.swift; sourceTree = "<group>"; };
+		0E125C6F2994E5D70019EF0B /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
 		0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
 		0E25F996298A37F6008D2DE4 /* Step+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+Extension.swift"; sourceTree = "<group>"; };
 		0E25F998298A39B1008D2DE4 /* HomeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStepper.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				0E25F992298A2E41008D2DE4 /* SignUpFirstViewController.swift */,
 				0E125C6D2994E2900019EF0B /* RestViewController.swift */,
+				0E125C6F2994E5D70019EF0B /* SignUpSecondViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
 				0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */,
+				0E125C702994E5D70019EF0B /* SignUpSecondViewController.swift in Sources */,
 				0E4A8B05298D1944007462F7 /* BaseSV.swift in Sources */,
 				0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */,
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
