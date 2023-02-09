@@ -6,7 +6,7 @@ import RxCocoa
 
 class SignUpSecondViewController: BaseSV {
     
-    internal lazy var thirdTextField = UITextField().then {
+    private lazy var thirdTextField = UITextField().then {
         $0.borderStyle = UITextField.BorderStyle.none
         $0.returnKeyType = UIReturnKeyType.done
         $0.setContentHuggingPriority(.defaultHigh, for: .horizontal)
@@ -14,7 +14,7 @@ class SignUpSecondViewController: BaseSV {
         $0.textColor = .Black
     }
     
-    internal lazy var thirdLine = UIView().then {
+    private lazy var thirdLine = UIView().then {
         $0.backgroundColor = .Gray400
     }
     
