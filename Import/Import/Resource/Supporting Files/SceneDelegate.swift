@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
         
-        let rootNavigationController = UINavigationController(rootViewController: SecessionSecondViewController())
+        let rootNavigationController = UINavigationController(rootViewController: SecessionRestViewController())
 
         self.window?.rootViewController = rootNavigationController
 //        let appFlow = AppFlow(window: window)
