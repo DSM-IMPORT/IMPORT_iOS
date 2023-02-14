@@ -36,6 +36,7 @@
 		0ED3CFDD299B6644007E3A2F /* BaseRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFDC299B6644007E3A2F /* BaseRest.swift */; };
 		0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */; };
 		0ED3CFE4299B6C93007E3A2F /* FindIdRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */; };
+		0ED3CFE7299B6E23007E3A2F /* ChangePasswordRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE6299B6E23007E3A2F /* ChangePasswordRestViewController.swift */; };
 		0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE402792986D0B600334805 /* MassgeViewController.swift */; };
 		0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027B2986D0C200334805 /* PlusViewController.swift */; };
 		0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027D2986D0CA00334805 /* UserViewController.swift */; };
@@ -76,6 +77,7 @@
 		0ED3CFDC299B6644007E3A2F /* BaseRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRest.swift; sourceTree = "<group>"; };
 		0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
 		0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdRestViewController.swift; sourceTree = "<group>"; };
+		0ED3CFE6299B6E23007E3A2F /* ChangePasswordRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordRestViewController.swift; sourceTree = "<group>"; };
 		0EE402792986D0B600334805 /* MassgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassgeViewController.swift; sourceTree = "<group>"; };
 		0EE4027B2986D0C200334805 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		0EE4027D2986D0CA00334805 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 		0ED3CFDB299B63A7007E3A2F /* StabilityEmoji */ = {
 			isa = PBXGroup;
 			children = (
+				0ED3CFE5299B6E03007E3A2F /* ChangePassword */,
 				0ED3CFE0299B6B62007E3A2F /* FindId */,
 				0ED3CFDE299B69A6007E3A2F /* Signup */,
 			);
@@ -304,6 +307,14 @@
 				0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */,
 			);
 			path = FindId;
+			sourceTree = "<group>";
+		};
+		0ED3CFE5299B6E03007E3A2F /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3CFE6299B6E23007E3A2F /* ChangePasswordRestViewController.swift */,
+			);
+			path = ChangePassword;
 			sourceTree = "<group>";
 		};
 		0EE402762986CF2500334805 /* TestCode */ = {
@@ -485,6 +496,7 @@
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
 				0E125C762994E9DF0019EF0B /* StabilityViewController.swift in Sources */,
 				0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */,
+				0ED3CFE7299B6E23007E3A2F /* ChangePasswordRestViewController.swift in Sources */,
 				0E07B96B2988D0D700E103F4 /* IMPORTStep.swift in Sources */,
 				0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */,
 				0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */,
