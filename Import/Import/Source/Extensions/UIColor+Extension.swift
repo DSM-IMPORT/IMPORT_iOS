@@ -35,3 +35,13 @@ extension UIColor {
     static let Red: UIColor = UIColor(named: "Red")!
     static let Red100: UIColor = UIColor(named: "Red100")!
 }
+
+//PopUpViewController
+extension UIColor {
+    func image(_ size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
+        return UIGraphicsImageRenderer(size: size).image { rendererContext in
+            self.setFill()
+            rendererContext.fill(CGRect(origin: .zero, size: size))
+        }
+    }
+}

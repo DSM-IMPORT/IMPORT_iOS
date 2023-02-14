@@ -37,6 +37,11 @@
 		0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */; };
 		0ED3CFE4299B6C93007E3A2F /* FindIdRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */; };
 		0ED3CFE7299B6E23007E3A2F /* ChangePasswordRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE6299B6E23007E3A2F /* ChangePasswordRestViewController.swift */; };
+		0ED3CFEA299B7039007E3A2F /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE9299B7039007E3A2F /* PopUpViewController.swift */; };
+		0ED3CFEC299B732C007E3A2F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFEB299B732C007E3A2F /* UIViewController+Extension.swift */; };
+		0ED3CFEF299B743E007E3A2F /* SecessionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFEE299B743E007E3A2F /* SecessionFirstViewController.swift */; };
+		0ED3CFF1299B751D007E3A2F /* SecessionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFF0299B751D007E3A2F /* SecessionSecondViewController.swift */; };
+		0ED3CFF3299B7F82007E3A2F /* UIControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFF2299B7F82007E3A2F /* UIControl+Extension.swift */; };
 		0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE402792986D0B600334805 /* MassgeViewController.swift */; };
 		0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027B2986D0C200334805 /* PlusViewController.swift */; };
 		0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027D2986D0CA00334805 /* UserViewController.swift */; };
@@ -78,6 +83,11 @@
 		0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
 		0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdRestViewController.swift; sourceTree = "<group>"; };
 		0ED3CFE6299B6E23007E3A2F /* ChangePasswordRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordRestViewController.swift; sourceTree = "<group>"; };
+		0ED3CFE9299B7039007E3A2F /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		0ED3CFEB299B732C007E3A2F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0ED3CFEE299B743E007E3A2F /* SecessionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecessionFirstViewController.swift; sourceTree = "<group>"; };
+		0ED3CFF0299B751D007E3A2F /* SecessionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecessionSecondViewController.swift; sourceTree = "<group>"; };
+		0ED3CFF2299B7F82007E3A2F /* UIControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
 		0EE402792986D0B600334805 /* MassgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassgeViewController.swift; sourceTree = "<group>"; };
 		0EE4027B2986D0C200334805 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		0EE4027D2986D0CA00334805 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +113,7 @@
 		0E07B9642988CED600E103F4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0ED3CFED299B73DA007E3A2F /* secession */,
 				0E07B9752988D78D00E103F4 /* StratViewController.swift */,
 				0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */,
 				0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */,
@@ -245,6 +256,7 @@
 		0E683B6029840853003DA3E8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0ED3CFE8299B6FF1007E3A2F /* customAlert  */,
 				0E07B9772988D7F800E103F4 /* Base */,
 				0E07B9672988CF4100E103F4 /* Flow */,
 				0E07B9642988CED600E103F4 /* ViewControllers */,
@@ -317,6 +329,23 @@
 			path = ChangePassword;
 			sourceTree = "<group>";
 		};
+		0ED3CFE8299B6FF1007E3A2F /* customAlert  */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3CFE9299B7039007E3A2F /* PopUpViewController.swift */,
+			);
+			path = "customAlert ";
+			sourceTree = "<group>";
+		};
+		0ED3CFED299B73DA007E3A2F /* secession */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3CFEE299B743E007E3A2F /* SecessionFirstViewController.swift */,
+				0ED3CFF0299B751D007E3A2F /* SecessionSecondViewController.swift */,
+			);
+			path = secession;
+			sourceTree = "<group>";
+		};
 		0EE402762986CF2500334805 /* TestCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +370,8 @@
 			children = (
 				0EE402832986D31900334805 /* UIColor+Extension.swift */,
 				0E25F996298A37F6008D2DE4 /* Step+Extension.swift */,
+				0ED3CFEB299B732C007E3A2F /* UIViewController+Extension.swift */,
+				0ED3CFF2299B7F82007E3A2F /* UIControl+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -483,6 +514,7 @@
 				0ED3CFE4299B6C93007E3A2F /* FindIdRestViewController.swift in Sources */,
 				0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */,
 				0EA0A55F2990CF9F00652588 /* ChangePasswordFlow.swift in Sources */,
+				0ED3CFF1299B751D007E3A2F /* SecessionSecondViewController.swift in Sources */,
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
 				0EE402842986D31900334805 /* UIColor+Extension.swift in Sources */,
 				0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */,
@@ -490,10 +522,12 @@
 				0ED3CFDD299B6644007E3A2F /* BaseRest.swift in Sources */,
 				0E4A8B05298D1944007462F7 /* BaseSV.swift in Sources */,
 				0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */,
+				0ED3CFF3299B7F82007E3A2F /* UIControl+Extension.swift in Sources */,
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
 				0E125C6E2994E2900019EF0B /* SignUpRestViewController.swift in Sources */,
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
+				0ED3CFEC299B732C007E3A2F /* UIViewController+Extension.swift in Sources */,
 				0E125C762994E9DF0019EF0B /* StabilityViewController.swift in Sources */,
 				0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */,
 				0ED3CFE7299B6E23007E3A2F /* ChangePasswordRestViewController.swift in Sources */,
@@ -503,6 +537,8 @@
 				0E683B622984096D003DA3E8 /* TestContrller.swift in Sources */,
 				0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */,
 				0E4A8B03298D18EE007462F7 /* EmailLoginVIewController.swift in Sources */,
+				0ED3CFEF299B743E007E3A2F /* SecessionFirstViewController.swift in Sources */,
+				0ED3CFEA299B7039007E3A2F /* PopUpViewController.swift in Sources */,
 				0E25F999298A39B1008D2DE4 /* HomeStepper.swift in Sources */,
 				0E125C722994E90E0019EF0B /* SignUpfourthViewController.swift in Sources */,
 				0ED333322983FD5C005E2551 /* SceneDelegate.swift in Sources */,
