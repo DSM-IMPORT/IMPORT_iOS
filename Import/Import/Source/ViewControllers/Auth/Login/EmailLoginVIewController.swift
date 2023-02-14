@@ -48,7 +48,8 @@ class EmailLoginViewController: BaseSV {
     }
     
     func changePasswordButtonDidTap() {
-        self.steps.accept(IMPORTStep.changePasswordRequired)
+//        self.steps.accept(IMPORTStep.changePasswordRequired)
+        self.navigationController?.pushViewController(ChangePasswordViewController(), animated: true)
         print("changePasswordButtonDidTap")
     }
     

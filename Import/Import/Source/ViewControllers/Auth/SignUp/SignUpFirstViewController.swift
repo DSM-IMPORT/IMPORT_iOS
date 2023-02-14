@@ -10,7 +10,6 @@ class SignUpFirstViewController: BaseSV {
         IMPORTStep.homeIsRequired
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateWith(self)
@@ -25,6 +24,12 @@ class SignUpFirstViewController: BaseSV {
         firstTextField.placeholder = "전화번호를 입력해 주세요"
         secondTextField.placeholder = "전송된 인증번호를 입력해 주세요"
         
+        loginFirstNextButton.rx.tap
+            .bind {
+                self.navigationController?.pushViewController(SignUpSecondViewController(), animated: true)
+
+            }
+        
     }
     
     override func attribute() {
@@ -32,6 +37,6 @@ class SignUpFirstViewController: BaseSV {
     }
     
     func signupButtonDidTap() {
-        self.steps.accept(IMPORTStep.homeIsRequired)
+//        self.steps.accept(IMPORTStep.homeIsRequired)
     }
 }

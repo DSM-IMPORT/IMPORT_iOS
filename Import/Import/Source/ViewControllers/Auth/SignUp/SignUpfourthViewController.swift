@@ -27,6 +27,6 @@ class SignUpfourthViewController: BaseSV {
     }
     
     func signupButtonDidTap() {
-        self.steps.accept(IMPORTStep.homeIsRequired)
+//        self.steps.accept(IMPORTStep.homeIsRequired)
     }
 }

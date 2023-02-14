@@ -2,7 +2,7 @@ import UIKit
 import Then
 import SnapKit
 
-class RestViewController: BaseVC {
+class SignUpRestViewController: BaseVC {
     
     private lazy var restImage = UIImageView().then {
         let imageName = "RestImage"
