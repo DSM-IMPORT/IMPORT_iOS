@@ -15,7 +15,7 @@
 		0E07B9742988D65F00E103F4 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9732988D65F00E103F4 /* AppStepper.swift */; };
 		0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9752988D78D00E103F4 /* StratViewController.swift */; };
 		0E07B9792988D7FF00E103F4 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07B9782988D7FF00E103F4 /* BaseVC.swift */; };
-		0E125C6E2994E2900019EF0B /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6D2994E2900019EF0B /* RestViewController.swift */; };
+		0E125C6E2994E2900019EF0B /* SignUpRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6D2994E2900019EF0B /* SignUpRestViewController.swift */; };
 		0E125C702994E5D70019EF0B /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C6F2994E5D70019EF0B /* SignUpSecondViewController.swift */; };
 		0E125C722994E90E0019EF0B /* SignUpfourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C712994E90E0019EF0B /* SignUpfourthViewController.swift */; };
 		0E125C742994E9890019EF0B /* SignUpFifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E125C732994E9890019EF0B /* SignUpFifthViewController.swift */; };
@@ -34,6 +34,8 @@
 		0ED333392983FD5D005E2551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED333382983FD5D005E2551 /* Assets.xcassets */; };
 		0ED3333C2983FD5D005E2551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED3333A2983FD5D005E2551 /* LaunchScreen.storyboard */; };
 		0ED3CFDD299B6644007E3A2F /* BaseRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFDC299B6644007E3A2F /* BaseRest.swift */; };
+		0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */; };
+		0ED3CFE4299B6C93007E3A2F /* FindIdRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */; };
 		0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE402792986D0B600334805 /* MassgeViewController.swift */; };
 		0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027B2986D0C200334805 /* PlusViewController.swift */; };
 		0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE4027D2986D0CA00334805 /* UserViewController.swift */; };
@@ -51,7 +53,7 @@
 		0E07B9732988D65F00E103F4 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
 		0E07B9752988D78D00E103F4 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
 		0E07B9782988D7FF00E103F4 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		0E125C6D2994E2900019EF0B /* RestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewController.swift; sourceTree = "<group>"; };
+		0E125C6D2994E2900019EF0B /* SignUpRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRestViewController.swift; sourceTree = "<group>"; };
 		0E125C6F2994E5D70019EF0B /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
 		0E125C712994E90E0019EF0B /* SignUpfourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpfourthViewController.swift; sourceTree = "<group>"; };
 		0E125C732994E9890019EF0B /* SignUpFifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFifthViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,8 @@
 		0ED3333B2983FD5D005E2551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ED3333D2983FD5D005E2551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED3CFDC299B6644007E3A2F /* BaseRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRest.swift; sourceTree = "<group>"; };
+		0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
+		0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdRestViewController.swift; sourceTree = "<group>"; };
 		0EE402792986D0B600334805 /* MassgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassgeViewController.swift; sourceTree = "<group>"; };
 		0EE4027B2986D0C200334805 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		0EE4027D2986D0CA00334805 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			children = (
 				0E07B9752988D78D00E103F4 /* StratViewController.swift */,
 				0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */,
+				0ED3CFE1299B6C14007E3A2F /* FindIdViewController.swift */,
 				0E07B9702988D49B00E103F4 /* Auth */,
 			);
 			path = ViewControllers;
@@ -278,6 +283,7 @@
 		0ED3CFDB299B63A7007E3A2F /* StabilityEmoji */ = {
 			isa = PBXGroup;
 			children = (
+				0ED3CFE0299B6B62007E3A2F /* FindId */,
 				0ED3CFDE299B69A6007E3A2F /* Signup */,
 			);
 			path = StabilityEmoji;
@@ -286,10 +292,18 @@
 		0ED3CFDE299B69A6007E3A2F /* Signup */ = {
 			isa = PBXGroup;
 			children = (
-				0E125C6D2994E2900019EF0B /* RestViewController.swift */,
+				0E125C6D2994E2900019EF0B /* SignUpRestViewController.swift */,
 				0E125C752994E9DF0019EF0B /* StabilityViewController.swift */,
 			);
 			path = Signup;
+			sourceTree = "<group>";
+		};
+		0ED3CFE0299B6B62007E3A2F /* FindId */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3CFE3299B6C93007E3A2F /* FindIdRestViewController.swift */,
+			);
+			path = FindId;
 			sourceTree = "<group>";
 		};
 		0EE402762986CF2500334805 /* TestCode */ = {
@@ -455,6 +469,7 @@
 				0EE402812986D16E00334805 /* TabBarViewController.swift in Sources */,
 				0E07B96D2988D36900E103F4 /* LoginStepper.swift in Sources */,
 				0E07B96F2988D46B00E103F4 /* HomeFlow.swift in Sources */,
+				0ED3CFE4299B6C93007E3A2F /* FindIdRestViewController.swift in Sources */,
 				0EE4027E2986D0CA00334805 /* UserViewController.swift in Sources */,
 				0EA0A55F2990CF9F00652588 /* ChangePasswordFlow.swift in Sources */,
 				0EE4027A2986D0B600334805 /* MassgeViewController.swift in Sources */,
@@ -466,9 +481,10 @@
 				0E25F997298A37F6008D2DE4 /* Step+Extension.swift in Sources */,
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
-				0E125C6E2994E2900019EF0B /* RestViewController.swift in Sources */,
+				0E125C6E2994E2900019EF0B /* SignUpRestViewController.swift in Sources */,
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
 				0E125C762994E9DF0019EF0B /* StabilityViewController.swift in Sources */,
+				0ED3CFE2299B6C14007E3A2F /* FindIdViewController.swift in Sources */,
 				0E07B96B2988D0D700E103F4 /* IMPORTStep.swift in Sources */,
 				0E07B9762988D78D00E103F4 /* StratViewController.swift in Sources */,
 				0EE4027C2986D0C200334805 /* PlusViewController.swift in Sources */,
