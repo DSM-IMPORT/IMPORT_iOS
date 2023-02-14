@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
         
-        let rootNavigationController = UINavigationController(rootViewController: ChangePasswordRestViewController())
+        let rootNavigationController = UINavigationController(rootViewController: SecessionSecondViewController())
 
         self.window?.rootViewController = rootNavigationController
 //        let appFlow = AppFlow(window: window)
