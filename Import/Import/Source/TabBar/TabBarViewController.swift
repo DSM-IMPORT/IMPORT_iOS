@@ -13,16 +13,17 @@ import SnapKit
 class TapBarViewController: UITabBarController {
     private lazy var homeViewController: UINavigationController = {
         let viewController = HomeViewController()
-        let tabBarItem = UITabBarItem(title: "도원준", image: UIImage(systemName: "house.fill"), tag: 0)
+        let tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Home_TapBar_Gray"), tag: 0)
+//        self.resizeImage(image: UIImage(named: "yourImageName")!, targetSize: CGSizeMake(200.0, 200.0))
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
-        tabBar.tintColor = .red
+//        tabBar.tintColor = .red
         return navigationView
     }()
     
     private lazy var chattingViewController: UIViewController = {
         let viewController = ChattingViewController()
-        let tabBarItem = UITabBarItem(title: "비밀", image: UIImage(systemName: "lock.fill"), tag: 1)
+        let tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Chatting_TabBar_Gray"), tag: 1)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
@@ -30,7 +31,7 @@ class TapBarViewController: UITabBarController {
     
     private lazy var recruitmentViewController: UIViewController = {
         let viewController = RecruitmentViewController()
-        let tabBarItem = UITabBarItem(title: "사진", image: UIImage(systemName: "photo.fill"), tag: 2)
+        let tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Recruitment_TabBar_Gray"), tag: 2)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
@@ -38,7 +39,7 @@ class TapBarViewController: UITabBarController {
     
     private lazy var userViewController: UIViewController = {
         let viewController = UserViewController()
-        let tabBarItem = UITabBarItem(title: "유저", image: UIImage(systemName: "photo.fill"), tag: 3)
+        let tabBarItem = UITabBarItem(title: "", image: UIImage(named: "User_TabBar_Gray"), tag: 2)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
@@ -46,6 +47,7 @@ class TapBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         viewControllers = [homeViewController, chattingViewController, recruitmentViewController, userViewController]
         configureTabBar()
     }
@@ -63,8 +65,8 @@ class TapBarViewController: UITabBarController {
 extension UITabBarController {
     
     func configureTabBar() {
-        self.tabBar.tintColor = .label
-        self.tabBar.layer.cornerRadius = 20
+        self.tabBar.tintColor = .Primary
+        self.tabBar.layer.cornerRadius = 8
         self.tabBar.layer.masksToBounds = true
         self.tabBar.layer.backgroundColor = UIColor.systemBackground.cgColor
         //        self.tabBar.layer.borderWidth = 0.4
