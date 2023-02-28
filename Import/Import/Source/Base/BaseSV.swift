@@ -70,6 +70,8 @@ class BaseSV: BaseVC, Stepper {
     
     func updateWith(_ controller: UIViewController) {
         
+        view.backgroundColor = .White
+        
         lazy var textFields = [firstTextField, secondTextField]
         let placeholders = ["이름을 입력해 주세요.", "비밀번호를 입력해 주세요."]
         
