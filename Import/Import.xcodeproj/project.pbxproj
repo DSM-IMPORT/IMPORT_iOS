@@ -30,6 +30,7 @@
 		0EA086E729AE055C0015EC13 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA086E629AE055C0015EC13 /* HomeViewController.swift */; };
 		0EA086E929AE05710015EC13 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA086E829AE05710015EC13 /* ChattingViewController.swift */; };
 		0EA086EB29AE05890015EC13 /* RecruitmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA086EA29AE05890015EC13 /* RecruitmentViewController.swift */; };
+		0EA086F129AE12D50015EC13 /* BaseNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA086F029AE12D50015EC13 /* BaseNC.swift */; };
 		0EA0A55D2990CD0800652588 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */; };
 		0EA0A55F2990CF9F00652588 /* ChangePasswordFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0A55E2990CF9F00652588 /* ChangePasswordFlow.swift */; };
 		0ED333302983FD5C005E2551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3332F2983FD5C005E2551 /* AppDelegate.swift */; };
@@ -78,6 +79,7 @@
 		0EA086E629AE055C0015EC13 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0EA086E829AE05710015EC13 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
 		0EA086EA29AE05890015EC13 /* RecruitmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitmentViewController.swift; sourceTree = "<group>"; };
+		0EA086F029AE12D50015EC13 /* BaseNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNC.swift; sourceTree = "<group>"; };
 		0EA0A55C2990CD0800652588 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		0EA0A55E2990CF9F00652588 /* ChangePasswordFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordFlow.swift; sourceTree = "<group>"; };
 		0ED3332C2983FD5C005E2551 /* Import.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +158,7 @@
 			children = (
 				0E07B9782988D7FF00E103F4 /* BaseVC.swift */,
 				0E4A8B04298D1944007462F7 /* BaseSV.swift */,
+				0EA086F029AE12D50015EC13 /* BaseNC.swift */,
 				0ED3CFDC299B6644007E3A2F /* BaseRest.swift */,
 			);
 			path = Base;
@@ -548,6 +551,7 @@
 				0E25F993298A2E41008D2DE4 /* SignUpFirstViewController.swift in Sources */,
 				0E07B9692988CF6000E103F4 /* LoginFlow.swift in Sources */,
 				0E125C6E2994E2900019EF0B /* SignUpRestViewController.swift in Sources */,
+				0EA086F129AE12D50015EC13 /* BaseNC.swift in Sources */,
 				0E25F99F298A3C3C008D2DE4 /* SignupFlow.swift in Sources */,
 				0ED3CFEC299B732C007E3A2F /* UIViewController+Extension.swift in Sources */,
 				0E125C762994E9DF0019EF0B /* StabilityViewController.swift in Sources */,
